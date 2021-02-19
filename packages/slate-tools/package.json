@@ -1,12 +1,13 @@
+
 {
-  "name": "@pushengineering/shopify-slate",
+  "name": "@shopify/slate-tools",
   "version": "1.0.0-beta.19",
   "description": "A modern development toolkit for Shopify themes",
-  "repository": "https://github.com/pie2211/slate/tree/master/packages/slate-tools",
+  "repository": "https://github.com/Shopify/slate/tree/1.x/packages/slate-tools",
   "license": "MIT",
   "author": "Shopify",
   "bugs": {
-    "url": "https://github.com/pie2211/slate/issues"
+    "url": "https://github.com/Shopify/slate/issues"
   },
   "bin": {
     "slate-tools": "./cli/index.js"
@@ -85,5 +86,9 @@
   },
   "devDependencies": {
     "mock-fs": "^4.6.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "@shopify:registry": "https://registry.npmjs.org"
   }
 }
